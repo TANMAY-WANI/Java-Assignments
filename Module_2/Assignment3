@@ -19,17 +19,6 @@ class dist
     void display(){
         System.out.println("Distance  = "+ft+"ft "+inch+"\"");
     }
-
-    void add(Distance temp){ //function to add 2 distances given in feet and inch
-        int x,y;
-        x = ft + temp.ft;
-        y = inch + temp.inch;
-        if (y>=12){
-            y-=12;
-            x++;
-        }
-        System.out.println("Added distance = "+x+"ft "+y+"\"");
-    }
 }
 public class Assignment3
 {
